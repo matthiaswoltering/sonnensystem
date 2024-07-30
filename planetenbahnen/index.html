@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- planet -->
+    <link rel="stylesheet" href="planet.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="head">
+                    <div class="datefield" id="datum">test</div>
+                    <div class="btn-group-vertical">
+                        <button class="btn btn-primary" type="button" onclick="addDays(-14)">[-14]</button>
+                        <button class="btn btn-primary" type="button" onclick="addDays(-7)">[-7]</button>
+                        <button class="btn btn-primary" type="button" onclick="addDays(-1)">[-1]</button>
+                        <button class="btn btn-primary" type="button" onclick="addDays(+1)">[+1]</button>
+                        <button class="btn btn-primary" type="button" onclick="addDays(+7)">[+7]</button>
+                        <button class="btn btn-primary" type="button" onclick="addDays(+14)">[+14]</button>
+                        <button class="btn btn-primary" type="button" onclick="zoomOut()">[zoom Out]</button>
+                        <button class="btn btn-primary" type="button" onclick="zoomIn()">[zoom In]</button>
+                        <button class="btn btn-primary" type="button" onclick="redraw()">[redraw]</button>
+                        <button class="btn btn-primary" type="button" onclick="today()">[today]</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <canvas id="planetcanvas" width=100 height=100></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="head" >
+        <span class="datefield" id="datum"></span>
+        <button class="switch" onclick="addDays(-14)">[-14]</button>
+        <button class="switch" onclick="addDays(-7)">[-7]</button>
+        <button class="switch" onclick="addDays(-1)">[-1]</button>
+        <button class="switch" onclick="addDays(+1)">[+1]</button>
+        <button class="switch" onclick="addDays(+7)">[+7]</button>
+        <button class="switch" onclick="addDays(+14)">[+14]</button>
+        <button class="switch" onclick="zoomOut()">[zoom Out]</button>
+        <button class="switch" onclick="zoomIn()">[zoom In]</button>
+        <button class="switch" onclick="redraw()">[redraw]</button>
+        <button class="switch" onclick="today()">[today]</button>
+    </div>
+    <canvas id="planetcanvas" width=100 height=100></canvas> -->
+
+    <script src="planet.js"></script>
+</body>
+
+</html>
