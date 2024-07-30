@@ -8,13 +8,13 @@ Es werden die aktuellen Planetenpositionen in einer SVG-Grafik im Browser gezeic
 
 Die Abstände sind nicht maßstabsgetreu, sondern so gewählt, daß man die Planeten gut erkennen kann.
 
-https://matthiaswoltering.github.io/sonnensystem/planetenpositionen/
+[[https://matthiaswoltering.github.io/sonnensystem/planetenpositionen/]]
 
 ## Planetenbahnen
 
 Sehr simple Möglichkeit, die Bahnen der Planeten zu tracken.
 
-https://matthiaswoltering.github.io/sonnensystem/planetenbahnen/
+[[https://matthiaswoltering.github.io/sonnensystem/planetenbahnen/]]
 
 
 ## Referenzen
